@@ -1,21 +1,21 @@
-# SMS-P2
-Link to your project if it's on the internet (in this case, the Github Pages link)
+###### Project week-2
+
+# OUR TEAM:
+
+##### Maha Foro : @maha276 <br>
+##### Sabeel Halabi : @sabeel29 <br>
+##### Sara Abu Zalaf : @sara3112 <br>
+
 <br>
 
-Sara Abu Zalaf : @sara3112 <br>
-Maha Foro : @maha276 <br>
-Sabeel Halabi : @sabeel29 <br>
-
+We built our application to let the user search for their favourite movies and TV-shows. The user can get information about the movie, like the release date, movie summary and rate. :cinema:
+---
 <br>
-// A description of what the code does (what does your application do?)
-
-The application gets information from other websites
-The user can search about the movie, TV show, or person . and he can get the poster and a {review} ... .
+We used API, JAVASCRIPT, CSS, HTML5 technologies to build our app<br>
+---
 <br>
-
-//What technologies did you use to build your application?<br>
-API ,, JS ,, CSS ,,,HTML
-
-What are the new things you learned?
-What are the challenges you encountered?
-What are the features you would like to add if you were going to continue working on this application?
+Some of the challenges we encountered are, finding the API key, finding the image URL..
+---
+<br>
+If we were going to continue working on this application, we would add a trailer to the movie, and more search options, like searching for actors.
+---
