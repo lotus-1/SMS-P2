@@ -1,5 +1,6 @@
 // Callback for the function to have a click button
 // Create a function to
+var imgUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 function getMovieData (event) {
   event.preventDefault();
   var searchValue = document.getElementById("search").value;
@@ -9,18 +10,19 @@ function getMovieData (event) {
       return response.json();
     })
     .then(function(data) {
-      //document.getElementById("title").textContent = data.title;
-      // var a = document.createElement('a');
-      // var linkText = document.createTextNode("title");
-      // a.appendChild(linkText);
-      // a.title = "my title text";
-      // a.href = "http://example.com";
-      // document.body.appendChild(a);
+      var result = data.results[0] ;
+      console.log(result.poster_path);
+    document.getElementById("title").textContent = result.title;
+    document.getElementById("image").src = imgUrl + result.poster_path;
+    document.getElementById("date").textContent = result.release_date;
+    document.getElementById("summary").textContent = result.overview;
+    document.getElementById("average").textContent = result.vote_average;
 
-      console.log(data);
+
+      //console.log(data);
     })
     .catch(function(error) {
-      console.log(error);
+      //console.log(error);
     })
 }
 
