@@ -10,17 +10,33 @@ function getMovieData (event) {
       return response.json();
     })
     .then(function(data) {
-      var result = data.results[0] ;
-      console.log(result.poster_path);
-    document.getElementById("title").textContent = result.title;
-    document.getElementById("image").src = imgUrl + result.poster_path;
-    document.getElementById("date").textContent = result.release_date;
-    document.getElementById("summary").textContent = result.overview;
-    document.getElementById("average").textContent = result.vote_average;
+      var result1 = data.results[0] ;
+      console.log(result1.poster_path);
+    document.getElementById("title1").textContent = result1.title;
+    document.getElementById("image1").src = imgUrl + result1.poster_path;
+    document.getElementById("date1").textContent = result1.release_date;
+    document.getElementById("summary1").textContent = result1.overview;
+    document.getElementById("average1").textContent = result1.vote_average;
+// })
+//     .then(function(data){
+    var result2 = data.results[1] ;
+    console.log(result2.poster_path);
+  document.getElementById("title2").textContent = result2.title;
+  document.getElementById("image2").src = imgUrl + result2.poster_path;
+  document.getElementById("date2").textContent = result2.release_date;
+  document.getElementById("summary2").textContent = result2.overview;
+  document.getElementById("average2").textContent = result2.vote_average;
 
-
+  var result3 = data.results[3] ;
+  console.log(result3.poster_path);
+document.getElementById("title3").textContent = result3.title;
+document.getElementById("image3").src = imgUrl + result3.poster_path;
+document.getElementById("date3").textContent = result3.release_date;
+document.getElementById("summary3").textContent = result3.overview;
+document.getElementById("average3").textContent = result3.vote_average;
+})
       //console.log(data);
-    })
+
     .catch(function(error) {
       //console.log(error);
     })
