@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> ba0975ed70a8651e5d65bae9e9d6a8ced9166d2e
 // We create a var to hold the constant url .
 var imgUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
@@ -25,6 +29,7 @@ function getMovieData (event) {
 
       console.log(result2.poster_path);
       document.getElementById("title2").textContent = result2.title;
+<<<<<<< HEAD
     document.getElementById("image2").src = imgUrl + result2.poster_path;
     document.getElementById("date2").textContent = result2.release_date;
     document.getElementById("summary2").textContent = result2.overview;
@@ -38,6 +43,21 @@ function getMovieData (event) {
     document.getElementById("date3").textContent = result3.release_date;
     document.getElementById("summary3").textContent = result3.overview;
     document.getElementById("average3").textContent = result3.vote_average;
+=======
+      document.getElementById("image2").src = imgUrl + result2.poster_path;
+      document.getElementById("date2").textContent = result2.release_date;
+      document.getElementById("summary2").textContent = result2.overview;
+      document.getElementById("average2").textContent = result2.vote_average;
+
+      var result3 = data.results[2] ;
+
+      console.log(result3.poster_path);
+      document.getElementById("title3").textContent = result3.title;
+      document.getElementById("image3").src = imgUrl + result3.poster_path;
+      document.getElementById("date3").textContent = result3.release_date;
+      document.getElementById("summary3").textContent = result3.overview;
+      document.getElementById("average3").textContent = result3.vote_average;
+>>>>>>> ba0975ed70a8651e5d65bae9e9d6a8ced9166d2e
 })
     //console.log(data);
 

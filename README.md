@@ -1,24 +1,30 @@
+<<<<<<< HEAD
 # SMS-P2
 
 SMS-MoviesDB
 <br>
 https://lotus-1.github.io/SMS-P2/
 <br>
+=======
+###### Project week-2
+>>>>>>> ba0975ed70a8651e5d65bae9e9d6a8ced9166d2e
 
-Sara Abu Zalaf : @sara3112 <br>
-Maha Foro : @maha276 <br>
-Sabeel Halabi : @sabeel29 <br>
+# OUR TEAM:
+
+##### Maha Foro : @maha276 <br>
+##### Sabeel Halabi : @sabeel29 <br>
+##### Sara Abu Zalaf : @sara3112 <br>
 
 <br>
-// A description of what the code does (what does your application do?)
 
-The application gets information from other websites
-The user can search about the movie, TV show, or person . and he can get the poster and a {review} ... .
+We built our application to let the user search for their favourite movies and TV-shows. The user can get information about the movie, like the release date, movie summary and rate. :cinema:
+---
 <br>
-
-//What technologies did you use to build your application?<br>
-API ,, JS ,, CSS ,,,HTML
-
-What are the new things you learned?
-What are the challenges you encountered?
-What are the features you would like to add if you were going to continue working on this application?
+We used API, JAVASCRIPT, CSS, HTML5 technologies to build our app<br>
+---
+<br>
+Some of the challenges we encountered are, finding the API key, finding the image URL..
+---
+<br>
+If we were going to continue working on this application, we would add a trailer to the movie, and more search options, like searching for actors.
+---
