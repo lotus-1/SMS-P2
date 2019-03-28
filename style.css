@@ -1,8 +1,10 @@
+
 body {
-  background-image: url("http://www.greenxf.com/phoneico/2019-1/2019141656643506.jpg");
-  background-size: contain;
-  text-align: center;
+  background: url("http://www.greenxf.com/phoneico/2019-1/2019141656643506.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
 }
+
 
 h1 {
   background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
