@@ -25,19 +25,19 @@ function getMovieData (event) {
 
     //  console.log(result2.poster_path);
       document.getElementById("title2").textContent = result2.title;
-      document.getElementById("image2").src = imgUrl + result2.poster_path;
-      document.getElementById("date2").textContent = result2.release_date;
-      document.getElementById("summary2").textContent = result2.overview;
-      document.getElementById("average2").textContent = result2.vote_average;
+    document.getElementById("image2").src = imgUrl + result2.poster_path;
+    document.getElementById("date2").textContent = result2.release_date;
+    document.getElementById("summary2").textContent = result2.overview;
+    document.getElementById("average2").textContent = result2.vote_average;
 
-      var result3 = data.results[2] ;
+    var result3 = data.results[2] ;
 
-    //  console.log(result3.poster_path);
-      document.getElementById("title3").textContent = result3.title;
-      document.getElementById("image3").src = imgUrl + result3.poster_path;
-      document.getElementById("date3").textContent = result3.release_date;
-      document.getElementById("summary3").textContent = result3.overview;
-      document.getElementById("average3").textContent = result3.vote_average;
+    console.log(result3.poster_path);
+    document.getElementById("title3").textContent = result3.title;
+    document.getElementById("image3").src = imgUrl + result3.poster_path;
+    document.getElementById("date3").textContent = result3.release_date;
+    document.getElementById("summary3").textContent = result3.overview;
+    document.getElementById("average3").textContent = result3.vote_average;
 })
       //console.log(data);
     .catch(function(error) {
