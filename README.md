@@ -1,5 +1,8 @@
 # SMS-P2
-Link to your project if it's on the internet (in this case, the Github Pages link)
+
+SMS-MoviesDB
+<br>
+https://lotus-1.github.io/SMS-P2/
 <br>
 
 Sara Abu Zalaf : @sara3112 <br>

@@ -1,6 +1,6 @@
 body {
   background-image: url("http://www.greenxf.com/phoneico/2019-1/2019141656643506.jpg");
-  background-size: cover;
+  background-size: contain;
   text-align: center;
 }
 
@@ -50,7 +50,7 @@ input[type=text] {
 
 }
 
-#title {
+.title {
   font-size: 50px;
   font-family: serif;
   color: #7300e6;
@@ -58,19 +58,19 @@ input[type=text] {
   font-style: oblique;
 }
 
-#summary {
+.summary {
   font-size: 30px;
   font-family: sans-serif;
   padding: 80px 50px;
   font-style: italic;
 }
 
-#date {
+.date {
   font-size: 30px;
   padding: 80px 50px;
 }
 
-#average {
+.average {
   font-size: 30px;
   padding: 80px 50px;
   text-shadow: 3px 3px #1aff1a;
