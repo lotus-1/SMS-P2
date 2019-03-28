@@ -1,4 +1,13 @@
+<<<<<<< HEAD
+# SMS-P2
+
+SMS-MoviesDB
+<br>
+https://lotus-1.github.io/SMS-P2/
+<br>
+=======
 ###### Project week-2
+>>>>>>> ba0975ed70a8651e5d65bae9e9d6a8ced9166d2e
 
 # OUR TEAM:
 
