@@ -1,3 +1,4 @@
+
 // We create a var to hold the constant url .
 var imgUrl = "https://image.tmdb.org/t/p/w185_and_h278_bestv2/";
 
@@ -13,8 +14,8 @@ function getMovieData (event) {
     })
 
     .then(function(data) {
-      var result1 = data.results[0] ;
-    //  console.log(result1.poster_path);
+      var result1 = data.results[0];
+
       document.getElementById("title1").textContent = result1.title;
       document.getElementById("image1").src = imgUrl + result1.poster_path;
       document.getElementById("date1").textContent = result1.release_date;
@@ -23,26 +24,26 @@ function getMovieData (event) {
 
       var result2 = data.results[1] ;
 
-    //  console.log(result2.poster_path);
       document.getElementById("title2").textContent = result2.title;
-    document.getElementById("image2").src = imgUrl + result2.poster_path;
-    document.getElementById("date2").textContent = result2.release_date;
-    document.getElementById("summary2").textContent = result2.overview;
-    document.getElementById("average2").textContent = result2.vote_average;
+      document.getElementById("image2").src = imgUrl + result2.poster_path;
+      document.getElementById("date2").textContent = result2.release_date;
+      document.getElementById("summary2").textContent = result2.overview;
+      document.getElementById("average2").textContent = result2.vote_average;
 
-    var result3 = data.results[2] ;
+      var result3 = data.results[2] ;
 
-    console.log(result3.poster_path);
-    document.getElementById("title3").textContent = result3.title;
-    document.getElementById("image3").src = imgUrl + result3.poster_path;
-    document.getElementById("date3").textContent = result3.release_date;
-    document.getElementById("summary3").textContent = result3.overview;
-    document.getElementById("average3").textContent = result3.vote_average;
+      document.getElementById("title3").textContent = result3.title;
+      document.getElementById("image3").src = imgUrl + result3.poster_path;
+      document.getElementById("date3").textContent = result3.release_date;
+      document.getElementById("summary3").textContent = result3.overview;
+      document.getElementById("average3").textContent = result3.vote_average;
+
 })
-      //console.log(data);
-    .catch(function(error) {
-      //console.log(error);
-    })
+    //console.log(data);
+
+  .catch(function(error) {
+    console.log(error);
+  })
 }
 // Adding a callback to have a click
 document.getElementById("button").addEventListener("click", getMovieData);
